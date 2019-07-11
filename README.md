@@ -4,7 +4,7 @@
 
 GTK theme based on the appearance of Haiku OS, itself based on BeOS
 
-![haiku-beta-1](https://github.com/B00merang-Project/gallery/raw/master/Haiku%20R2%20Beta%201%20(1).png)
+![haiku-beta-1](https://github.com/B00merang-Project/gallery/raw/master/Haiku%20R1%20Beta%201%20(1).png)
 
 **Maintainer:** [Elbullazul](https://github.com/elbullazul)
 
