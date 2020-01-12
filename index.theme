@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Haiku
+Comment=GTK theme based on Haiku R1 Alpha
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Haiku
+MetacityTheme=Haiku
+IconTheme=Haiku
+CursorTheme=DMZ-White
+ButtonLayout=:minimize,maximize,close
