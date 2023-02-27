@@ -444,11 +444,9 @@ editablelabel > stack > text > selection {
 
 button {
   padding: 4px 9px;
-  border-style: solid;
-  border-width: 1px;
   border-radius: 0px;
+  border-style: 1px solid #6a6a6a;
   color: #000000;
-  border-color: #6a6a6a;
   background-color: #e8e8e8;
   background-image: linear-gradient(to bottom, #ededed, #e8e8e8 45%, #e0e0e0 55%, #d7d7d7);
   box-shadow: inset 1px 1px white, inset -1px -1px #8c8c8c, 0 0 0 1px rgba(0, 0, 0, 0.05), 1px 1px rgba(255, 255, 255, 0.5);
@@ -470,8 +468,8 @@ button {
     border-color: transparent;
     border-radius: 0px;
     color: #000000;
-    background-image: none;
     background-color: transparent;
+    background-image: none;
     box-shadow: none; }
     button.flat:hover {
       border-color: #6a6a6a;
@@ -498,10 +496,8 @@ button {
       color: #000000; }
 
 button.destructive-action {
-  border-width: 1px;
-  border-style: solid;
-  border-color: #a30000;
   border-radius: 0px;
+  border: 1px solid #a30000;
   color: #fae6e6;
   background-color: #CC0000;
   background-image: none; }
@@ -518,10 +514,8 @@ button.destructive-action {
     background-color: #cf4141; }
 
 button.suggested-action {
-  border-width: 1px;
-  border-style: solid;
   border-radius: 0px;
-  border-color: #989898;
+  border: 1px solid #989898;
   color: #FFFFFF;
   background-image: linear-gradient(to bottom, #bebebe, #a7a7a7); }
   button.suggested-action:hover {
@@ -672,8 +666,8 @@ toolbar {
     border-color: transparent;
     border-radius: 0px;
     color: #000000;
-    background-image: none;
     background-color: transparent;
+    background-image: none;
     box-shadow: none; }
     toolbar button.flat:hover {
       border-color: #6a6a6a;
@@ -823,8 +817,8 @@ headerbar {
     border-color: transparent;
     border-radius: 0px;
     color: #000000;
-    background-image: none;
     background-color: transparent;
+    background-image: none;
     box-shadow: none; }
     headerbar button:hover {
       border-color: #6a6a6a;
@@ -2439,8 +2433,8 @@ menubutton arrow {
   border-color: transparent;
   border-radius: 0px;
   color: #000000;
-  background-image: none;
   background-color: transparent;
+  background-image: none;
   box-shadow: none; }
   .toolbar > button:hover,
   .toolbar > :not(.linked) > button:hover,
