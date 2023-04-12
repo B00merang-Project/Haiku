@@ -1487,7 +1487,6 @@ progressbar {
   font-size: smaller;
   color: gray; }
   progressbar > trough {
-    padding: 2px 0px;
     border-radius: 0px;
     border: 1px solid #acacac;
     border-bottom-color: #e6e6e6;
@@ -1497,18 +1496,21 @@ progressbar {
     box-shadow: inset 1px 1px #8c8c8c, inset -1px -1px #dbdbdb; }
   progressbar > trough > progress {
     border: 1px solid #1b528c;
+    background-color: #3196ff; }
+  progressbar.vertical > trough {
+    padding: 0px 2px; }
+  progressbar.vertical > trough > progress {
+    border-bottom-color: #2777cb;
+    border-left-color: #2777cb;
+    background-image: linear-gradient(to right, #8bc3ff, #73b7ff 50%, #5fadff 60%, #46a0ff); }
+  progressbar.horizontal > trough {
+    padding: 2px 0px; }
+  progressbar.horizontal > trough > progress {
     border-top-color: #2777cb;
     border-left-color: #2777cb;
-    background-color: #3196ff;
     background-image: linear-gradient(to bottom, #8bc3ff, #73b7ff 50%, #5fadff 60%, #46a0ff);
     box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
     border-radius: 0px; }
-  progressbar.vertical > trough > progress {
-    border: 1px solid #1b528c;
-    border-bottom-color: #2777cb;
-    border-left-color: #2777cb;
-    background-color: #3196ff;
-    background-image: linear-gradient(to right, #8bc3ff, #73b7ff 50%, #5fadff 60%, #46a0ff); }
   progressbar.horizontal > trough {
     min-width: 150px; }
   progressbar.vertical > trough {
