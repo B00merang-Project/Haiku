@@ -703,9 +703,9 @@ filechooserbutton:drop(active) {
 
 menu, .menu {
   margin: 4px;
-  padding: 0;
+  padding: 1px;
   border-radius: 0px;
-  border-style: none;
+  border: 1px solid #989898;
   color: #000000;
   background-color: #D7D7D7; }
   .csd menu, .csd .menu {
